@@ -12,7 +12,9 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "format": "prettier --config .prettierrc --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "format.check": "prettier --config .prettierrc --check 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
     "@ionic/core": "^4.9.1"
