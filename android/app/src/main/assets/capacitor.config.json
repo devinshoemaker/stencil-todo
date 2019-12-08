@@ -1,0 +1,8 @@
+{
+  "appId": "com.github.devinshoemaker.stenciltodo",
+  "appName": "Stencil Todo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
